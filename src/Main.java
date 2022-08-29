@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         WordsChecker test = new WordsChecker(text);
 
-        String wordToCheck = "adipiscing";
+        String wordToCheck = "dolor";
 
         if (test.hasWord(wordToCheck)) {
             System.out.println("В тексте есть слово '" + wordToCheck + "'");
